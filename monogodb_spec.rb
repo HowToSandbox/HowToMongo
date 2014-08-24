@@ -14,12 +14,6 @@ class Specs < MiniTest::Spec
 		@dogs.remove
 	end
 
-	describe "Do a thing" do
-		it "does a thing" do
-		end
-		it "does another thing" do
-		end
-	end	
 
 	describe "Lets write and return things from the database" do
 		it "returns the data we expect from the database" do
