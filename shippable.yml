@@ -1,0 +1,18 @@
+reset_minion: true
+build_environment: Ubuntu 12.04
+language: ruby
+rvm:
+ - 2.1.2
+before_install:
+  - ls
+
+before_script:
+ - ls
+
+script:
+- rake spec:livewire
+
+notifications:
+     email:
+         recipients:
+             - fmorales@francesmorales.com
